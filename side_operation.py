@@ -41,7 +41,7 @@ def row_to_coloumn_convertor_3 (matrix):
         count = count_2
         list_change_matrix.append(row_tO_coulum)
     return list_change_matrix
-print(row_to_coloumn_convertor_3([[1, 4, 6], [9, 0, 4], [6, 3, 6]]))
+#print(row_to_coloumn_convertor_3([[1, 4, 6], [9, 0, 4], [6, 3, 6]]))
         
 
 def order_check (matrix):
