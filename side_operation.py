@@ -24,7 +24,7 @@ def list_to_matrix(list_matrix):
         return(list_to_matrix_3(list_matrix)) 
     else :
         raise Exception ('Your list can not be modified to matrix')
-    
+#hi   
         
 def row_to_coloumn_convertor_3 (matrix):
     list_matrix = matrix_to_list(matrix)
