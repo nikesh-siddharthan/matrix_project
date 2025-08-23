@@ -24,26 +24,14 @@ def list_to_matrix(list_matrix):
         return(list_to_matrix_3(list_matrix)) 
     else :
         raise Exception ('Your list can not be modified to matrix')
-#hi   
-        
-def row_to_coloumn_convertor_3 (matrix):
-    list_matrix = matrix_to_list(matrix)
-    list_change_matrix = []
-    count = -3
-    count_2 = 0
-    for i in range(3) :
-        row_tO_coulum = []
-        count_2 = count_2 + 1
-        for j in range(3) :
-            count = count + 3
-            print(count)
-            row_tO_coulum.append(list_matrix[count])
-        count = count_2
-        list_change_matrix.append(row_tO_coulum)
-    return list_change_matrix
-#print(row_to_coloumn_convertor_3([[1, 4, 6], [9, 0, 4], [6, 3, 6]]))
+
+
+
         
 
 def order_check (matrix):
     return len(matrix) 
 
+def matrix_print (matrix):
+    for i in matrix :
+        print(i)
